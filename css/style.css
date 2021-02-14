@@ -1,0 +1,35 @@
+/* 20210215TODO:jsonファイルからの適用 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+  background-image: url("../resource/background.png");
+  background-size: cover;
+}
+
+main {
+  display: flex; /* 親要素をFlexboxにする */
+  justify-content: center; /* 横を中央揃えにする */
+  align-items: center; /* 縦を中央揃えにする */
+}
+
+#output-json-space {
+  background-color: rgba(255, 166, 0, 0.24);
+  margin-top: 40px;
+  display: flex; /* 親要素をFlexboxにする */
+  justify-content: center; /* 横を中央揃えにする */
+  align-items: center; /* 縦を中央揃えにする */
+}
+
+#output-json-space__button {
+  background-color: rgb(230, 89, 230, 0.5);
+  font-size: 15px;
+}
