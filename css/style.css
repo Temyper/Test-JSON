@@ -15,14 +15,7 @@ body {
   background-size: cover;
 }
 
-main {
-  display: flex; /* 親要素をFlexboxにする */
-  justify-content: center; /* 横を中央揃えにする */
-  align-items: center; /* 縦を中央揃えにする */
-}
-
 #output-json-space {
-  background-color: rgba(255, 166, 0, 0.24);
   margin-top: 40px;
   display: flex; /* 親要素をFlexboxにする */
   justify-content: center; /* 横を中央揃えにする */
@@ -32,4 +25,24 @@ main {
 #output-json-space__button {
   background-color: rgb(230, 89, 230, 0.5);
   font-size: 15px;
+}
+
+#input-json-space {
+  margin-top: 40px;
+  display: flex; /* 親要素をFlexboxにする */
+  flex-direction: column;
+  justify-content: center; /* 横を中央揃えにする */
+  align-items: center; /* 縦を中央揃えにする */
+}
+
+#input-json-space__button {
+  background-color: rgba(230, 179, 70, 0.5);
+  font-size: 12px;
+}
+
+#input-json-space__target {
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
 }
